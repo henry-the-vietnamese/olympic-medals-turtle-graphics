@@ -23,7 +23,7 @@ def move_turtle(animal, x, y):
     animal.pd()
 
 
-def segment(degree):
+def segment(pie, degree):
     pie.begin_fill()
     pie.lt(180)
     pie.fd(230)
