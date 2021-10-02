@@ -6,9 +6,24 @@
 _Source: Adelaide Advertiser 3 August 2021_
 
 # Documentation
-To begin, I convert the numbers of gold medals into percentages in order to draw the pie chart’s segments. The corresponding percentage is converted by dividing the number of gold medals the total of gold medals (119) and multiplied by 100.
+To begin, I convert the numbers of gold medals into percentages in order to draw the pie chart’s segments. The corresponding percentage is converted by dividing the number of gold medals by 360%.
 
-| Number of Gold Medals  | Corresponding Percentages (%) |
+| Number of Gold Medals  | Segment Percentages (%) |
+| ------------- | ------------- |
+| 28  | 82.8  |
+| 21  | 61.2  |
+| 17  | 50.4  |
+| 14  | 39.6  |
+| 12  | 36  |
+| 11  | 32.4  |
+| 6  | 18  |
+| 6  | 18  |
+| 4  | 10.8  |
+| 4  | 10.8  |
+
+The percentage in 100% is converted by dividing the number of gold medals the total of gold medals (119) and multiplied by 100.
+
+| Segment Percentages (%)  | Percentages in 100% (%) |
 | ------------- | ------------- |
 | 28  | 23  |
 | 21  | 17  |
