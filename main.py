@@ -2,7 +2,7 @@
 # File:         main.py
 # Author:       Tan Duc Mai
 # Email:        tan.duc.work@gmail.com
-# Date:         5/8/2021
+# Date:         5-Aug-21
 # Description:  Use Turtle Graphics to illustrate the city life.
 #   I hereby declare that I completed this work without any improper help
 #   from a third party and without using any aids other than those cited.
