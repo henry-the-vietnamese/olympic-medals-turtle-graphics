@@ -144,6 +144,9 @@ def main():
     country(colour[0], -160, 'Italy')
     country((153, 115, 1), -195, 'Netherlands')
 
+    # Wipe the screen out.
+    screen.exitonclick()
+
 
 # --------------------------- Call the Main Function --------------------------
 if __name__ == '__main__':
