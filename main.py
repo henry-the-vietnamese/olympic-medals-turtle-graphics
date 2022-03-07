@@ -24,17 +24,17 @@ def main():
     screen.colormode(255)
     screen.bgcolor(231, 230, 231)
     screen.title('Share of Gold Medals in Tokyo Olympics, 2 August 2021')
-    turtle.setup(width = 750, height = 600)
+    turtle.setup(width=750, height=600)
 
     # title
     text = turtle.Turtle()
     text.shape('turtle')
     text.color('black')
     move_turtle(text, 0, 245)
-    text.write('Share of Gold Medals in Tokyo Olympics', \
-               font = ('Courier', 20, 'bold'), align = 'center')
+    text.write('Share of Gold Medals in Tokyo Olympics',
+               font=('Courier', 20, 'bold'), align='center')
     move_turtle(text, 0, 215)
-    text.write('2 August 2021', font = ('Courier', 17, 'bold'), align = 'center')
+    text.write('2 August 2021', font=('Courier', 17, 'bold'), align='center')
     text.hideturtle()
 
     # pie
@@ -74,14 +74,16 @@ def main():
     # Create a loop to draw 9 segments one after another
     count = 0
     for i in degree:
-        # Create a loop to iterate through the list of colours as each segment is drawn
+        # Create a loop to iterate through the list of colours as each segment
+        # is drawn.
         drawing = True
-        while count <= 8 and drawing:   
+        while count <= 8 and drawing:
             if count == count:
                 pie.color(colour[count], colour[count])
             count += 1
             drawing = False
-        # Call the function to draw the segments with corresponding calculated degrees
+        # Call the function to draw the segments with corresponding calculated
+        # degrees.
         segment(pie, i)
     pie.hideturtle()
 
@@ -91,25 +93,25 @@ def main():
       The percentage is achieved by diving the degree by 360%.
     """
 
-    ##Netherlands
+    # Netherlands
     label(-156, 120, '3%')
-    ##Italy
+    # Italy
     label(-192, 110, '3%')
-    ##S_Korea
+    # S_Korea
     label(-230, 90, '5%')
-    ##France
+    # France
     label(-280, 55, '5%')
-    ##G_Britain
+    # G_Britain
     label(-300, -20, '9%')
-    ##ROC
+    # ROC
     label(-300, -125, '10%')
-    ##Australia
+    # Australia
     label(-250, -220, '11%')
-    ##Japan
+    # Japan
     label(-120, -235, '14%')
-    ##USA
+    # USA
     label(15, -130, '17%')
-    ##China
+    # China
     label(-35, 70, '23%')
 
     # legend_boder
@@ -117,7 +119,7 @@ def main():
     set_turtle(boder, '#F0F0F0', '#F0F0F0')
     boder.begin_fill()
     move_turtle(boder, 170, 140)
-    for _ in range (2):
+    for _ in range(2):
         boder.fd(180)
         boder.lt(-90)
         boder.fd(365)
